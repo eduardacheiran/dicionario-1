@@ -1,0 +1,90 @@
+header{
+    height: 10px;
+}
+
+#nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+}
+
+
+#palavra{
+    font-size: 30px;
+    
+}
+
+.palavra{
+    font-size: 27px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #dcfebb;
+    border-radius: 7px;
+    width: 20vw;
+    height: 10vh;
+}
+
+
+.section-teste{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.palavras-div{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 101vw;
+    height: 100%;
+    background-color: rgba(30, 29, 29, 0.5);   
+}
+
+#modal{
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 68vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+
+
+#section-conto{
+    display: flex;
+    margin-top: 10vw;
+}
+
+#conto-div{
+    width: 60vw;
+    align-items: center;
+    margin-left: 20vw;
+}
+
+#conto{
+    text-align: justify;
+}
+
+.fechar{
+    width: 3vw;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 10px;
+    background-color: brown;
+    color: white;
+}
